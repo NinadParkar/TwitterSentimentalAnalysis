@@ -3,10 +3,10 @@ import tweepy
 
 
 def connectAPI(word):
-	consumer_key = 'TUwuP3PWVfCjUaOvqWTmhnOgF'
-	consumer_secret = 'nKJeMbQ9LpUysFrITuuGdQzT5X6cnddw5hK4Xt0yZcJcGSEKkh'
-	access_token = '1259037559902154752-qrMWm6EMyI0I1e29x1E6MXRgyHSYpD'
-	access_token_secret = 'YsZlB0f1Qsa5kJ93ta2AKqTkkepWJXFM1jnReaS4O4WHV'
+	consumer_key = ''
+	consumer_secret = ''
+	access_token = ''
+	access_token_secret = ''
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_token_secret)
 	api = tweepy.API(auth)
